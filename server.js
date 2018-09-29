@@ -10,6 +10,7 @@ app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 // Ruta HOME
+// Comentario
 app.get('/', (req, res) => {
     res.render('index', { name: 'Cristian' });
 });
